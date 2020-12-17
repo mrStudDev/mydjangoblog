@@ -1,0 +1,211 @@
+
+
+body {
+    padding: 0;
+    background-color: aquamarine;
+}
+/*CSS - NAV_BAR - Classes*/
+.navbar {
+    width: 100%;
+    background-color: rgb(116, 227, 235);
+    position: fixed;
+    margin-bottom: 20px;
+}
+/*Nome do blog na barra de navegação*/
+.nome_blog {
+    width: 200px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 10%;
+    background-color: rgb(174, 250, 244);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px, solid;
+    font-family: Verdana;
+    text-align: center;
+    cursor: pointer;
+}
+/*Container APP POST row 1 coluns 1 e 2 */
+.row-1 {
+    float: left;
+    width: 100%;
+    
+    
+}    
+ .colun-1 {
+    float: left;
+    width: 70%;
+    margin-top: 15px;
+    background-color: rgba(153, 253, 220, 0.959);
+    
+}
+.row-2 {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    
+} 
+.row-3 {
+    
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgba(153, 253, 220, 0.959);
+}  
+.container {
+    width: 70%;
+    
+}
+
+/* Coluna SIDEBAR*/
+.colun-2 {
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: auto;
+    
+}
+/* SIDEBAR ÁREAS*/
+.area-1 {
+    border-top-style: groove;
+    border-top-color: rgb(116, 227, 235);
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: rgba(153, 253, 220, 0.959);
+
+}
+.area-2 {
+    border-top-style: groove;
+    border-top-color: rgb(116, 227, 235);
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: rgba(153, 253, 220, 0.959);
+}
+.area-3 {
+    border-top-style: groove;
+    border-top-color: rgb(116, 227, 235);
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: rgba(153, 253, 220, 0.959);
+}
+.area-4 {
+    border-top-style: groove;
+    border-top-color: rgb(116, 227, 235);
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: rgba(153, 253, 220, 0.959);
+}
+.area-5 {
+    border-top-style: groove;
+    border-top-color: rgb(116, 227, 235);
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-color: rgba(153, 253, 220, 0.959);
+}
+
+/*CSS - NAV_BAR - tags*/
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a :hover {
+    color: rgb(42, 42, 238);
+}
+/*Imagem Estilo */
+.imgsuperior {
+    width: 10%;
+    height: auto;
+    margin-right: 23%;
+    
+    
+    
+}
+p .imgtitulo {
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*Sessão h */
+p {
+    font-family: Arial;
+    font-size: 14;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+/*Botão input Leia Mais*/
+input {
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    font-family: Arial, solid;
+    color:rgb(0, 47, 255);
+
+
+}
+.formulario {
+    width: 50%;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+h1 {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Arial, solid;
+    color: rgb(71, 109, 80);
+}
+h2 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+h3 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+h4 {
+    font-family: Verdana, solid;
+    font-size: large;
+    margin-top: 4px;
+    text-align: center;
+    color:rgb(7, 90, 49);
+}
+
+h6 {
+    text-decoration-line:overline;
+    font-family: Verdana;
+    color: rgb(14, 13, 14);
+    margin-left: 4%;
+    margin-right: 4%;
+    
+
+}
+h5 {
+    font-family: Arial;
+    font-size: 10;
+    color: rgb(97, 102, 104);
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.footer {
+    height: 300px;
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(116, 227, 235);
+    color: white;
+    text-align: center;
+  }

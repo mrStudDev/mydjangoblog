@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+
+<title>{% block head_title %} | {{ block.super}} | {% endblock head_title %}</title>
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/estilo_singular.css' %}">
+    <a href="{{ object.get_absolute_url }}"><h1>{{ object.titulo }}</h1></a>
+    <h5>{{ object.data}} </h5>
+    <h6>{{ object.tag }}</h6>
+    <p class='imgtitulo'>{{ object.conteudo | safe | linebreaks }}</p><br><br><br><br><br><br>
+
+{% endblock content %}
+    

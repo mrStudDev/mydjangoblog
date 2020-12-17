@@ -1,0 +1,106 @@
+
+
+body {
+    padding: 0;
+    background-color: aquamarine;
+}
+/*CSS - NAV_BAR - Classes*/
+.navbar {
+    background-color:  rgb(116, 227, 235);
+    
+}
+/*Nome do blog na barra de navegação*/
+.nome_blog {
+    width: 200px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 10%;
+    background-color: rgb(174, 250, 244);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px, solid;
+    font-family: Verdana;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+/*Container APP POST row 1 coluns 1 e 2 */
+.row-1 {
+    width: 100%;
+    
+} 
+.row-3 {
+    width: 100%;
+    margin-top: 50px;
+}     
+ .colun-1 {
+    float: left;
+    width: 77%;
+    margin-top: 15px;
+    background-color: rgba(153, 253, 220, 0.959);
+    
+}
+.container {
+    width: 77%;
+    
+}
+
+/* Coluna SIDEBAR*/
+.colun-2 {
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 900px;
+    background-color: rgba(153, 253, 220, 0.959);
+}
+
+/*CSS - NAV_BAR - tags*/
+a {
+    text-decoration: none;
+}
+a :hover {
+    background-color: rgb(116, 227, 235);
+}
+/*Imagem Estilo */
+p .imgtitulo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*Sessão h */
+p {
+    font-family: Arial;
+    font-size: 14;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+}
+h1 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+h2 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+h3 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h6 {
+    font-family: Verdana, solid;
+    color: rgb(18, 58, 38);
+    margin-left: 4%;
+    margin-right: 4%;
+}
+h5 {
+    font-family: Arial;
+    font-size: 10;
+    color: rgb(97, 102, 104);
+    margin-left: 4%;
+    margin-right: 4%;
+}

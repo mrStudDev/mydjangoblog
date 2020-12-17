@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="stylesheet" href="{% static 'css/estilo_base css'%}">
+    <title>My_dj_blog</title>
+</head>
+<body>
+    {% block content %}
+
+    {% for object in object_list %}
+
+    <a href="{{ object.get_absolute_url }}"><h1>{{ object.titulo }}</h1></a>
+    <h5> {{ object.data }}</h5>
+    <h6>#{{ object.tag }}</h6>
+    <p class="text-resumo">{{ object.resumo | safe | linebreaks }}</p>
+    <form  action={{object.get_absolute_url}}>
+        <input type="submit" value="Leia mais" />
+    </form><hr><br>
+    
+    {% endfor %}
+
+
+<div>
+    {% if page_obj.has_previous %}
+        <a href="?page=1">&laquo; first</a>
+        <a href="?page={{ page_obj.previous_page_number }}">Anterior</a>
+    {% endif %}
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">Posterior</a>
+        <a href="?page={{ contacts.paginator.num_pages }}">last &raquo;</a>
+     {% endif %}
+</div>
+
+{% endblock content %}
+    
+</body>
+</html>
