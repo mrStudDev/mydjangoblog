@@ -5,7 +5,7 @@ class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self.send_Posts()
-        self.send_response(200)
+        elf.send_dj_blog()
         self.send_header('Content-type','text/plain')
         self.end_headers()
         message = cow.Cowacter().milk('Hello from Python from a Serverless Function!')
